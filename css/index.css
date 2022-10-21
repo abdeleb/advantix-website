@@ -1,107 +1,110 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
 
-body {
+html, body {
     margin: 0;
     padding: 0;
     box-sizing: 0;
-}
-
-main {
     font-family: 'Open Sans', sans-serif;
 }
+
 /* --- HEADER --- */
 header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(30, 27, 92);
+    background: linear-gradient(90deg, rgba(30, 27, 92, 1) 0%, rgba(82, 61, 152, 1) 15%, rgba(82, 61, 152, 1) 85%, rgba(30, 27, 92, 1) 100%);
+}
+
+.nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.header-img-container img {
+    margin-left: 12px;
+    margin-top: 12px;
+    width: 60px;
+}
+
+/* --- NAV --- */
+.nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul a {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    margin: 0 12px;
+}
+
+.nav-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(96, 9, 240);
+    background: linear-gradient(0deg, rgba(96, 9, 240, 1) 0%, rgba(129, 5, 240, 1) 100%);
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 100px;
+}
+
+
+/* --- Front Page Section --- */
+
+main {
     display: flex;
     justify-content: center;
     background: rgb(30, 27, 92);
     background: linear-gradient(90deg, rgba(30, 27, 92, 1) 0%, rgba(82, 61, 152, 1) 15%, rgba(82, 61, 152, 1) 85%, rgba(30, 27, 92, 1) 100%);
-    width: 100%;
+    height: 94vh;
 }
 
-header div {
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    width: 100%;
-    max-width: 1201px;
-}
-
-.header-img-container img {
-    width: 50px;
-    margin-left: 18px;
-}
-
-.header-img-container {
-    color: white;
-    position: relative;
-}
-
-.header-img-container p {
-    position: absolute;
-    font-size: 1.6rem;
-    left: 80px;
-}
-
-.header-img-container, .nav, .nav ul {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    margin-right: 12px;
-}
-
-/* --- Nav --- */
-.nav ul a{
-    color: white;
-    text-decoration: none;
-    list-style-type: none;
-}
-
-.nav-btn {
-    background-color: #2a1080;
-    border-radius: 8px;
-    padding: 6px 16px;
-    width: 100px;
-}
-
-/* --- Front Page Section --- */
 .frontpage {
     display: flex;
+    justify-content: center;
     align-items: center;
-    height: 94vh;
-    gap: 80px;
-    background: rgb(30, 27, 92);
-    background: linear-gradient(90deg, rgba(30, 27, 92, 1) 0%, rgba(82, 61, 152, 1) 15%, rgba(82, 61, 152, 1) 85%, rgba(30, 27, 92, 1) 100%);
+    margin-bottom: 150px;
 }
 
 .frontpage-left {
-   width: 400px;
-   margin-left: 15%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .frontpage-left img {
-    width: 100%;
-}
-.frontpage-right {
-   width: 400px;
-   color: white;
+    width: 75%;
 }
 
-.frontpage-right i {
+.frontpage-right {
+    width: 50%;
+}
+.frontpage-right-text {
+    width: 70%;
+    color: white;
+}
+
+.frontpage-right-text i {
     font-weight: 100;
 }
 
-.frontpage-right h1 {
+.frontpage-right-text h1 {
     margin: 0;
     font-size: 3rem;
 }
 
-.frontpage-right p {
+.frontpage-right-text p {
     font-weight: 300;
     margin-bottom: 22px;
 }
 
-.frontpage-right a {
-    background-color: #2a1080;
+.frontpage-right-text a {
+    background: rgb(96, 9, 240);
+    background: linear-gradient(0deg, rgba(96, 9, 240, 1) 0%, rgba(129, 5, 240, 1) 100%);
     border-radius: 8px;
     padding: 6px 12px;
     color: white;
