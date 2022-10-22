@@ -1,0 +1,15 @@
+.our-services {
+    background-color: white;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.card-service {
+    display: inline;
+    background-color: #523d98;
+    height: 400px;
+    width: 200px;
+}
