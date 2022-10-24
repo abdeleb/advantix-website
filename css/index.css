@@ -52,17 +52,14 @@ header {
 }
 
 /* --- FRONT PAGE --- */
-main {
-    background: rgb(30, 27, 92);
-    background: linear-gradient(90deg, rgba(30, 27, 92, 1) 0%, rgba(82, 61, 152, 1) 15%, rgba(82, 61, 152, 1) 85%, rgba(30, 27, 92, 1) 100%);
-}
 
 .frontpage {
+    background: rgb(30, 27, 92);
+    background: linear-gradient(90deg, rgba(30, 27, 92, 1) 0%, rgba(82, 61, 152, 1) 15%, rgba(82, 61, 152, 1) 85%, rgba(30, 27, 92, 1) 100%);
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 150px;
-    height: 80vh;
+    height: 92vh;
 }
 
 .frontpage-left {
