@@ -1,0 +1,111 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    margin: 5%;
+    color: white;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+}
+
+.contact h3 {
+    font-weight: 100;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+.contact,
+.contact h2,
+.contact h3,
+.contact form {
+    background-color: #523d98;
+}
+
+.contact form {
+    width: 70%;
+}
+
+.contact input {
+    background-color: white;
+    border: none;
+    padding: 20px;
+    font-size: 18px;
+    display: block;
+    margin: 20px auto;
+}
+
+.contact input[type="email"] {
+    background-image: url("../img/mail.svg");
+    background-repeat: no-repeat;
+    background-position: 5%;
+    border: 1px solid white;
+    text-align: center;
+    width: 90%;
+}
+
+.contact input[type="email"]:hover {
+    border: 1px solid black;
+}
+
+.contact input[type="button"] {
+    background-color: blue;
+    color: white;
+}
+
+.contact input[type="button"]:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+/* TABLET ADJUSTMENTS */
+
+@media (min-width: 768px) {
+    .contact {
+        margin: 40px auto;
+        padding: 80px;
+        -top: 40px;
+    }
+
+    .contact form {
+        display: grid;
+        gap: 55px;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .contact h2 {
+        font-size: 40px;
+    }
+
+    .contact h3 {
+        font-size: 30px;
+    }
+
+    .contact input {
+        font-size: 20px;
+    }
+
+    .contact input[type="email"] {
+        width: 100%;
+    }
+
+    .contact-suscribe,
+    .contact input[type="button"] {
+        width: 160px;
+    }
+}
+
+/* DESKTOP ADJUSTMENTS */
+
+@media (min-width: 992px) {
+    .contact form {
+        gap: 50px;
+    }
+
+    .contact-suscribe,
+    .contact input[type="button"] {
+        width: 200px;
+    }
+}

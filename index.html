@@ -7,6 +7,12 @@
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/index.css" />
     <link rel="stylesheet" href="./css/our-services.css" />
+    <link rel="stylesheet" href="./css/contact.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>Advantix Hosting</title>
   </head>
   <body>
@@ -16,15 +22,15 @@
       </div>
       <nav class="nav">
         <ul>
-          <a href="/"><li>Home</li></a>
-          <a href="/"><li>Services</li></a>
-          <a href="/"><li>Contact</li></a>
+          <a href="#"><li>Home</li></a>
+          <a href="#our-services"><li>Services</li></a>
+          <a href="#contact"><li>Contact</li></a>
           <a class="nav-btn" href="/"><li>Custom area</li></a>
         </ul>
       </nav>
     </header>
     <main>
-      <section class="frontpage">
+      <section id="frontpage" class="frontpage">
         <div class="frontpage-left">
           <img src="./img/fontpage-img.png" alt="frontpage photo" />
         </div>
@@ -42,7 +48,7 @@
         </div>
       </section>
 
-      <section class="our-services">
+      <section id="our-services" class="our-services">
         <h2>Our services</h2>
         <p>Lorem ipsum eum quia neque velit, laudantium dolorum</p>
         <div class="card-container">
@@ -81,6 +87,58 @@
           </div>
         </div>
       </section>
+
+      <section id="contact" class="contact">
+        <h2>Do you have any questions?</h2>
+        <h3>Let us help you!</h3>
+        <form action="">
+          <input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="Enter your email"
+          />
+          <a class="contact-suscribe" href="/">
+            <input type="button" value="Suscribe" />
+          </a>
+        </form>
+      </section>
     </main>
+    <footer>
+      <div class="top_header">
+        <section>
+          <span><i class="fa fa-map-marker"></i></span>
+          <span>Street, full address, state/province, country, pincode</span>
+        </section>
+        <section>
+          <span><i class="fa fa-phone"></i></span>
+          <span>(00) 0000 0000</span>
+        </section>
+        <section>
+          <span><i class="fa fa-envelope"></i></span>
+          <span>info@websitename.com</span>
+        </section>
+      </div>
+      <span class="border-shape"></span>
+      <div class="bottom_content">
+        <section>
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-telegram"></i></a>
+        </section>
+        <section>
+          <a href="#">Home</a>
+          <a href="#">About us</a>
+          <a href="#">Order</a>
+          <a href="#">Retail</a>
+          <a href="#">Member</a>
+          <a href="#">Contact Us</a>
+        </section>
+      </div>
+      <div class="copyright">
+        Copyright © 2021 websitename - All rights reserved
+      </div>
+    </footer>
   </body>
 </html>
