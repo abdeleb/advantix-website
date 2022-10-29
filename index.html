@@ -13,21 +13,25 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link rel="stylesheet" href="./css/reviews.css" />
+    <script src="./js/index.js"></script>
     <title>Advantix Hosting</title>
   </head>
   <body>
     <header>
-      <div class="header-img-container">
-        <img src="./img/advantix-icon-white.png" alt="logo" />
+      <div class="header-container">
+        <div class="header-img-container">
+          <img src="./img/advantix-icon-white.png" alt="logo" />
+        </div>
+        <nav class="nav">
+          <ul>
+            <a href="#"><li>Home</li></a>
+            <a href="#our-services"><li>Services</li></a>
+            <a href="#contact"><li>Contact</li></a>
+            <a class="nav-btn" href="/"><li>Custom area</li></a>
+          </ul>
+        </nav>
       </div>
-      <nav class="nav">
-        <ul>
-          <a href="#"><li>Home</li></a>
-          <a href="#our-services"><li>Services</li></a>
-          <a href="#contact"><li>Contact</li></a>
-          <a class="nav-btn" href="/"><li>Custom area</li></a>
-        </ul>
-      </nav>
     </header>
     <main>
       <section id="frontpage" class="frontpage">
@@ -103,12 +107,33 @@
           </a>
         </form>
       </section>
+
+      <section id="reviews">
+        <div id="loader"></div>
+        <div id="box">
+          <div class="img-con">
+            <img src="https://i.postimg.cc/gJDkZrNn/profile-image-1.png" />
+            <img src="https://i.postimg.cc/8kZzkJ7Y/profile-image-2.png" />
+            <img src="https://i.postimg.cc/90gmLK32/profile-image-3.png" />
+            <img src="https://i.postimg.cc/6qp6Lwmz/profile-image-4.png" />
+          </div>
+          <div class="wrapper">
+            <div class="testimonial-container" id="testimonial-container">
+              <div id="testimonial1" class="active">
+                <img src="" />
+              </div>
+            </div>
+            <button class="review-btn" id="prev" onclick="prev()">&lt;</button>
+            <button class="review-btn" id="next" onclick="next()">&gt;</button>
+          </div>
+        </div>
+      </section>
     </main>
     <footer>
       <div class="top_header">
         <section>
           <span><i class="fa fa-map-marker"></i></span>
-          <span>Street, full address, state/province, country, pincode</span>
+          <span>Full address</span>
         </section>
         <section>
           <span><i class="fa fa-phone"></i></span>

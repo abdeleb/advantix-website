@@ -10,10 +10,19 @@ html, body {
 /* --- HEADER --- */
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background: rgb(30, 27, 92);
     background: linear-gradient(90deg, rgba(30, 27, 92, 1) 0%, rgba(82, 61, 152, 1) 15%, rgba(82, 61, 152, 1) 85%, rgba(30, 27, 92, 1) 100%);
+    width: 100%;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1201px;
 }
 
 .nav ul {
@@ -59,22 +68,24 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 92vh;
+    height: 95vh;
+    gap: 40px;
 }
 
 .frontpage-left {
-    width: 50%;
+    width: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 10%;
 }
 
 .frontpage-left img {
-    width: 50%;
+    width: 100%;
 }
 
 .frontpage-right {
-    width: 50%;
+    width: 60%;
 }
 .frontpage-right-text {
     width: 70%;
