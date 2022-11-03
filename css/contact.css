@@ -11,7 +11,8 @@
     margin-bottom: 20px;
 }
 
-.contact h3 {
+#contact h3 {
+    font-size: 20px;
     font-weight: 100;
     margin-top: 0;
     margin-bottom: 50px;
@@ -50,13 +51,18 @@
 }
 
 .contact input[type="button"] {
-    background-color: blue;
+    background-color: rgb(179, 0, 255);
     color: white;
+    border: 1px solid rgb(179, 0, 255);
+    
+}
+
+.contact-suscribe {
+    text-decoration: none;
 }
 
 .contact input[type="button"]:hover {
     cursor: pointer;
-    color: blue;
 }
 
 /* TABLET ADJUSTMENTS */
