@@ -1,71 +1,77 @@
 .our-services {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .our-services h2 {
-    font-size: 2.4rem;
-    margin: 50px 0 0 0;
+  font-size: 2.4rem;
+  margin: 50px 0 0 0;
 }
 
 .our-services p {
-    font-weight: 100;
-    margin: 8px 0 44px 0;
+  font-weight: 100;
+  margin: 8px 0 44px 0;
 }
 
 .card-container {
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-    flex-wrap: wrap;
-    margin-bottom: 40px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
 }
 
 .card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #523d98;
-    height: 450px;
-    width: 220px;
-    color: white;
-    border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff3cac;
+  background-image: linear-gradient(
+    225deg,
+    #ff3cac 0%,
+    #784ba0 50%,
+    #2b86c5 100%
+  );
+  height: 450px;
+  width: 220px;
+  color: white;
+  border-radius: 8px;
 }
 
 .card img {
-    width: 75px;
+  width: 75px;
 }
 
 /* Price */
 .card p:nth-child(3) {
-    font-weight: bold;
-    font-size: 2rem;
-    margin: 0;
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 0;
 }
 /* Per month */
 .card p:nth-child(4) {
-    margin: 0;
-    font-weight: 100;
-    font-size: .8rem;
+  margin: 0;
+  font-weight: 100;
+  font-size: 0.8rem;
 }
 /* Card text */
 .card p:nth-child(5) {
-    font-weight: 300;
-    margin: 20px 20px;
+  font-weight: 300;
+  margin: 20px 20px;
 }
 
 .card button {
-    font-size: .8rem;
-    margin-top: 16px;
-    border: none;
-    background-color: rgb(179, 0, 255);
-    color: white;
-    border-radius: 8px;
-    padding: 4px 16px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-size: 0.8rem;
+  margin-top: 16px;
+  border: none;
+  background-color: rgb(179, 0, 255);
+  color: white;
+  border-radius: 8px;
+  padding: 4px 16px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
