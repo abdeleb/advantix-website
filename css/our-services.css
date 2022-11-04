@@ -7,21 +7,22 @@
 
 .our-services h2 {
     font-size: 2.4rem;
-    margin: 75px 0 0 0;
+    margin: 50px 0 0 0;
 }
 
 .our-services p {
     font-weight: 100;
-    margin-top: 8px;
+    margin: 8px 0 44px 0;
 }
 
 .card-container {
-    height: 600px;
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
 }
 
 .card {
@@ -48,7 +49,7 @@
 }
 /* Per month */
 .card p:nth-child(4) {
-    margin-top: 0;
+    margin: 0;
     font-weight: 100;
     font-size: .8rem;
 }
@@ -59,9 +60,12 @@
 }
 
 .card button {
+    font-size: .8rem;
     margin-top: 16px;
-    background-color: #ffffff;
-    color: black;
+    border: none;
+    background-color: rgb(179, 0, 255);
+    color: white;
     border-radius: 8px;
     padding: 4px 16px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
