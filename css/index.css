@@ -122,3 +122,45 @@ header {
     font-weight: 600;
     text-decoration: none;
 }
+
+@media screen and (max-width: 481px) {
+    .nav-link {
+        display: none;
+    }
+    .frontpage-right-text h1 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .frontpage-container {
+        flex-direction: column-reverse;
+    }
+    .frontpage-left {
+        margin: 0;
+    }
+
+    .frontpage-right {
+        display: flex;
+        justify-content: center;
+
+    }
+    .frontpage-right-text {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .frontpage-right a {
+        width: 68px;
+    }
+    .frontpage-right {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1001px) {
+    .frontpage-right-text h1 {
+            font-size: 2.4rem;
+        }
+}
