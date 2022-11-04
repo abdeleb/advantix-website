@@ -44,6 +44,7 @@
     border: 1px solid white;
     text-align: center;
     width: 90%;
+    border-radius: 8px;
 }
 
 .contact input[type="email"]:hover {
@@ -54,7 +55,7 @@
     background-color: rgb(179, 0, 255);
     color: white;
     border: 1px solid rgb(179, 0, 255);
-    
+    border-radius: 8px;
 }
 
 .contact-suscribe {
